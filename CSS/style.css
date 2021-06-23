@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f3e0e2;
+}
+
+.form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    box-shadow: 10px 10px 42px #00000091;
+}
+
+main > * {
+    flex-basis: 100%;
+}
+
+.login-form{
+    background-color: white;
+    text-align: center;
+}
+
+.login-text{
+    background-color: chocolate;
+}
+
+.login-form-heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+.fab{
+    border: 2px solid #EEEEEE;
+    padding: 15px;
+    font-size: 30px;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.fa-facebook-f{
+    margin-right: 5px;
+}
+
+.fa-twitter{
+    margin-left: 5px;
+}
+
+input {
+    width: 80%;
+    background-color: #EEEEEE;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: none;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000000a6;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #FF4B2B;
+    color: white;
+    width: 17%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.login-text{
+    background-image: linear-gradient(to right, #f14a52, #c3576f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text h2 {
+    font-size: 4rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.text p {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.text {
+    padding: 7rem;
+}
